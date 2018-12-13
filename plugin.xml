@@ -22,6 +22,12 @@
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
             <string>This app requires background location tracking</string>
         </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>This app requires background location tracking</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>This app requires background location tracking</string>
+        </config-file>
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
