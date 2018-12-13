@@ -10,7 +10,7 @@ Plugin is both foreground and background geolocation provider. It is far more ba
 
 
 ```
-cordova plugin add https://github.com/jumpbytehq/cordova-background-location-ios
+cordova plugin add https://github.com/WoodySlum/cordova-background-location-ios
 
 ```
 
