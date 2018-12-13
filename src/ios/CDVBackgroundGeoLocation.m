@@ -103,7 +103,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onSuspend:) name:UIApplicationDidEnterBackgroundNotification object:nil];
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onResume:) name:UIApplicationWillEnterForegroundNotification object:nil];
-
+    [locationManager requestAlwaysAuthorization];
 }
 
 - (BOOL)isAuthorized
